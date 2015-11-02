@@ -1,0 +1,24 @@
+{
+  "name": "mean_web_servey_service",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Yunsu Kim <black0806@daum.net>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/schnauzer91/mean_web_survey_service",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "font-awesome": "fontawesome#~4.4.0",
+    "bourbon": "~4.2.6"
+  }
+}
