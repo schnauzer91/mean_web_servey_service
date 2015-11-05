@@ -20,12 +20,8 @@
     "serve-favicon": "~2.2.0"
   },
   "devDependencies": {
-    "connect-flash": "^0.1.1",
-    "express-session": "^1.12.1",
     "gulp-jshint": "^1.12.0",
     "gulp-nodemon": "^2.0.4",
-    "gulp-sass": "^2.1.0",
-    "method-override": "^2.3.5",
-    "moment": "^2.10.6"
+    "gulp-sass": "^2.1.0"
   }
 }
