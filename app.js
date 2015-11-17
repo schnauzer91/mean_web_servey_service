@@ -18,7 +18,7 @@ app.set('view engine', 'jade');
 // mongodb connect
 // 본인의 mongodb 접속 URL을 확인해서 id:pwd@server:port/dbname 의 형태로
 // local의 경우 mongodb://localhost/dbname 형태
-mongoose.connect('mongodb://kim1:1234@ds045054.mongolab.com:45054/web_programming');
+mongoose.connect('mongodb://user:password@ds045054.mongolab.com:45054/web_programming');
 mongoose.connection.on('error', console.log);
 
 // uncomment after placing your favicon in /public
