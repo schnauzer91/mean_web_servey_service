@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="711bb3da-7b55-4380-bd66-543fe1dd18ef" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\express\node_modules\send\node_modules\.bin mime.cmd" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\spdx-license-ids.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\index.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.istanbul.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-concat\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\spdx-license-ids.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\index.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\spdx-license-ids.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.istanbul.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-jshint\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\chokidar\node_modules\anymatch\node_modules\micromatch\node_modules\braces\node_modules\expand-range\node_modules\fill-range\node_modules\randomatic\node_modules\is-number\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\chokidar\node_modules\anymatch\node_modules\micromatch\node_modules\braces\node_modules\expand-range\node_modules\fill-range\node_modules\randomatic\node_modules\is-number\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\chokidar\node_modules\anymatch\node_modules\micromatch\node_modules\braces\node_modules\expand-range\node_modules\fill-range\node_modules\randomatic\node_modules\is-number\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\chokidar\node_modules\anymatch\node_modules\micromatch\node_modules\braces\node_modules\expand-range\node_modules\fill-range\node_modules\randomatic\node_modules\is-number\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\end-of-stream\node_modules\once\node_modules\wrappy\wrappy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\core-util-is\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\core-util-is\float.patch" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\core-util-is\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\core-util-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\inherits\inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\inherits\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\isarray\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\isarray\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\process-nextick-args\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\process-nextick-args\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\process-nextick-args\license.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\process-nextick-args\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\process-nextick-args\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\process-nextick-args\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\string_decoder\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\string_decoder\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\string_decoder\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\string_decoder\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\string_decoder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\util-deprecate\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\util-deprecate\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\util-deprecate\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\util-deprecate\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\util-deprecate\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\duplexify\node_modules\readable-stream\node_modules\util-deprecate\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\pinkie-promise\node_modules\pinkie\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\pinkie-promise\node_modules\pinkie\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\doc\wg-meetings\2015-01-30.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\core-util-is\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\core-util-is\float.patch" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\core-util-is\lib\util.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\core-util-is\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\core-util-is\util.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\inherits\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\inherits\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\inherits\inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\inherits\inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\inherits\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\inherits\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\isarray\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\isarray\build\build.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\isarray\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\isarray\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\isarray\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\process-nextick-args\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\process-nextick-args\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\process-nextick-args\license.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\process-nextick-args\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\process-nextick-args\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\process-nextick-args\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\string_decoder\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\string_decoder\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\string_decoder\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\string_decoder\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\string_decoder\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\util-deprecate\History.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\util-deprecate\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\util-deprecate\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\util-deprecate\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\util-deprecate\node.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-nodemon\node_modules\nodemon\node_modules\update-notifier\node_modules\latest-version\node_modules\package-json\node_modules\got\node_modules\read-all-stream\node_modules\readable-stream\node_modules\util-deprecate\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\spdx-license-ids.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\index.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\spdx-license-ids.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.istanbul.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp-sass\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-correct\node_modules\spdx-license-ids\spdx-license-ids.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\index.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-exceptions\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\normalize-package-data\node_modules\validate-npm-package-license\node_modules\spdx-expression-parse\node_modules\spdx-license-ids\spdx-license-ids.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.istanbul.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\mean_web_survey_service\node_modules\gulp\node_modules\gulp-util\node_modules\dateformat\node_modules\meow\node_modules\read-pkg-up\node_modules\read-pkg\node_modules\load-json-file\node_modules\parse-json\node_modules\error-ex\node_modules\is-arrayish\package.json" afterPath="" />
+    </list>
+    <ignored path="mean_web_survey_service.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="mean_web_survey_service" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mean_web_survey_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mean_web_survey_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mean_web_survey_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mean_web_survey_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mean_web_survey_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="711bb3da-7b55-4380-bd66-543fe1dd18ef" name="Default" comment="" />
+      <created>1447851561920</created>
+      <option name="number" value="Default" />
+      <updated>1447851561920</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
