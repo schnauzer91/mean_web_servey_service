@@ -71,10 +71,30 @@ a {
 
 a:hover {
   color: #7c001f; }
-/*                               */
+
+/*     add                          */
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.footer p {
+    color: #505050;
+}
+
 #content .container {
   background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+
 
 /* =Template
 -------------------------------------------------------------- */
