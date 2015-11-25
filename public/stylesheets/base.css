@@ -53,7 +53,7 @@ a img {
   box-sizing: border-box; }
 
 body {
-  background-color: #c80032;
+  background-color: #fff;
   color: #505050;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
@@ -74,7 +74,12 @@ a:hover {
 
 /*     add                          */
 
+html {
+  background-color: #fff;
+}
+
 .footer {
+    background-color: #333333;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -86,13 +91,27 @@ a:hover {
     color: #505050;
 }
 
+#content {
+  background-color: #fff;
+}
+
 #content .container {
   background-color: #fff;
-  padding-top: 30px;
   padding-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
 }
+
+.form-signin {
+    width: 320px;
+    height: 300px;
+    padding: 0px;
+    top: 10em;
+    left: 50%;
+    position: absolute;
+    margin: 120px 0px 0px -160px;
+}
+
 
 
 

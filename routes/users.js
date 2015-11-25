@@ -7,7 +7,12 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/new', function(req, res, next) {
-  res.render('users/new', {messages: req.flash()});
+  res.render('users/new');
+});
+
+router.post('/', function(req, res, next) {
+  req.flash('success', '가입이 완료되었습니다. 로그인 해주세요.');
+  res.redirect('/');
 });
 
 module.exports = router;
