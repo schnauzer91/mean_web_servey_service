@@ -1,0 +1,138 @@
+extends ../layout
+
+block content
+
+  .container
+    .alert.alert-danger.alert-dismissable.error-bar.ng-binding.ng-hide(ng-show='errorMessage', error-bar='', message='errorService.errorMessage')
+        button.close(type='button', ng-click='hideError()', aria-hidden='true') &times;
+      header
+        p.pull-right
+          span.badge.ng-binding
+            span.glyphicon.glyphicon-user
+            |  1
+        h3
+          a(href='/') PollK
+
+
+      .row
+        // ngView:
+        .col-xs-12.ng-scope(ng-view='')
+          form.ng-scope.ng-pristine.ng-invalid.ng-invalid-required(name='pollForm', ng-submit='save()')
+            .bs-callout.bs-callout-danger.ng-hide(ng-show='poll._id')
+              p
+                span.text-warning
+                  span.glyphicon.glyphicon-warning-sign
+                 
+                br
+                span.text-danger
+                  span.glyphicon.glyphicon-exclamation-sign
+                
+                br
+                span.text-primary
+                  span.glyphicon.glyphicon-lock
+                  strong.ng-binding  
+            .form-group.ng-scope
+              label.control-label(for='title')
+              input#title.form-control.input-sm.ng-pristine.ng-invalid.ng-invalid-required(type='text', ng-model='poll.title', required='required')
+            .form-group.ng-scope
+              label.control-label(for='password')
+              input#password.form-control.input-sm.ng-pristine.ng-valid.ng-valid-minlength.ng-valid-pattern(type='password', ng-model='poll.password', ng-minlength='4', maxlength='4', ng-pattern='/^[0-9]+$/')
+              span.help-block
+                span.glyphicon.glyphicon-info-sign
+                  
+            .form-group.ng-scope
+              label.control-label(for='minEntry') 
+              input#minEntry.form-control.input-sm.ng-pristine.ng-valid-number.ng-valid-min.ng-valid.ng-valid-required(type='number', ng-model='poll.minEntry', min='4', required='required')
+              span.help-block
+                span.glyphicon.glyphicon-info-sign
+                 
+            hr
+            .form-group.ng-scope(ng-controller='PollCharacterCtrl')
+              label.control-label(for='characters') 
+              button.btn.btn-sm.btn-primary(type='button', ng-click='addCharacter()')
+                span.glyphicon.glyphicon-pencil
+              ul#characters.list-unstyled
+                // ngRepeat: character in poll.characters
+                li.mgt2.ng-scope(ng-repeat='character in poll.characters')
+                  .input-group
+                    span.input-group-addon.ng-binding 1
+                    input.form-control.ng-pristine.ng-invalid.ng-invalid-required(type='text', ng-model='character.title', placeholder='문제를 입력하세요.', required='required')
+                    span.input-group-btn
+                      button.btn.btn-primary(type='button', ng-click='addCharacterItem($index)', tabindex='-1')
+                        span.glyphicon.glyphicon-plus
+                      button.btn.btn-danger(type='button', ng-click='removeCharacter($index)', ng-disabled='poll.characters.length <= 1', tabindex='-1', disabled='disabled')
+                        span.glyphicon.glyphicon-trash
+                  ul.list-unstyled.item_blank
+                    // ngRepeat: item in character.items
+                    li.ng-scope(ng-repeat='item in character.items')
+                      .input-group
+                        span.input-group-addon.ng-binding 1
+                        input.form-control.ng-pristine.ng-invalid.ng-invalid-required(type='text', ng-model='item.content', placeholder='항목을 입력하세요.', required='required')
+                        span.input-group-btn
+                          button.btn.btn-danger(type='button', ng-click='removeCharacterItem($parent.$index, $index)', ng-disabled='character.items.length <3', tabindex='-1', disabled='disabled')
+                            span.glyphicon.glyphicon-minus
+                    // end ngRepeat: item in character.items
+                    li.ng-scope(ng-repeat='item in character.items')
+                      .input-group
+                        span.input-group-addon.ng-binding 2
+                        input.form-control.ng-pristine.ng-invalid.ng-invalid-required(type='text', ng-model='item.content', placeholder='항목을 입력하세요.', required='required')
+                        span.input-group-btn
+                          button.btn.btn-danger(type='button', ng-click='removeCharacterItem($parent.$index, $index)', ng-disabled='character.items.length <3', tabindex='-1', disabled='disabled')
+                            span.glyphicon.glyphicon-minus
+                    // end ngRepeat: item in character.items
+                // end ngRepeat: character in poll.characters
+            hr
+            .form-group.ng-scope(ng-controller='PollQuestionCtrl')
+              label.control-label(for='questions') 
+              button.btn.btn-sm.btn-primary(type='button', ng-click='addQuestion()')
+                span.glyphicon.glyphicon-pencil
+              ul#questions.list-unstyled
+                // ngRepeat: question in poll.questions
+                li.mgt2.ng-scope(ng-repeat='question in poll.questions')
+                  p
+                    label.radio-inline
+                      input.ng-pristine.ng-valid(type='radio', ng-model='question.isMulti', value='1', name='00H')
+                      
+                    label.radio-inline
+                      input.ng-pristine.ng-valid(type='radio', ng-model='question.isMulti', value='', name='00I')
+                      
+                  .input-group
+                    span.input-group-addon.ng-binding 1
+                    input.form-control.ng-pristine.ng-invalid.ng-invalid-required(type='text', ng-model='question.title', placeholder='문제를 입력하세요.', required='required')
+                    span.input-group-btn
+                      button.btn.btn-primary(type='button', ng-click='addQuestionItem($index)', ng-show='question.isMulti', tabindex='-1')
+                        span.glyphicon.glyphicon-plus
+                      button.btn.btn-danger(type='button', ng-click='removeQuestion($index)', ng-disabled='poll.questions.length <= 1', tabindex='-1', disabled='disabled')
+                        span.glyphicon.glyphicon-trash
+                  // ngIf: isMulti(question)
+                  ul.list-unstyled.item_blank.ng-scope(ng-if='isMulti(question)')
+                    // ngRepeat: item in question.items
+                    li.ng-scope(ng-repeat='item in question.items')
+                      .input-group
+                        span.input-group-addon.ng-binding 1
+                        input.form-control.ng-pristine.ng-invalid.ng-invalid-required(type='text', ng-model='item.content', placeholder='항목을 입력하세요.', required='required')
+                        span.input-group-btn
+                          button.btn.btn-danger(type='button', ng-click='removeQuestionItem($parent.$index, $index)', ng-disabled='question.items.length <3', tabindex='-1', disabled='disabled')
+                            span.glyphicon.glyphicon-minus
+                    // end ngRepeat: item in question.items
+                    li.ng-scope(ng-repeat='item in question.items')
+                      .input-group
+                        span.input-group-addon.ng-binding 2
+                        input.form-control.ng-pristine.ng-invalid.ng-invalid-required(type='text', ng-model='item.content', placeholder='항목을 입력하세요.', required='required')
+                        span.input-group-btn
+                          button.btn.btn-danger(type='button', ng-click='removeQuestionItem($parent.$index, $index)', ng-disabled='question.items.length <3', tabindex='-1', disabled='disabled')
+                            span.glyphicon.glyphicon-minus
+                    // end ngRepeat: item in question.items
+                  // end ngIf: isMulti(question)
+                // end ngRepeat: question in poll.questions
+            hr
+            p.text-center
+              button.btn.btn-warning.mgr1.ng-hide(type='button', ng-click='ticketing()', ng-show='poll._id')
+              button.btn.btn-success(type='submit', ng-disabled='pollForm.$invalid', disabled='disabled')
+              button.btn.btn-danger.mgl1.ng-hide(type='button', ng-click='remove()', ng-show='poll._id')
+      
+      footer
+        p
+          | Copyright &#x24D2; 
+          a(href='http://www.tested.co.kr', target='_blank') AllAboutSurvey.
+          |  All Rights Reserved.

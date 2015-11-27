@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+  .container
+    form.form-inline(action='/todos', method='POST', class='todos')
+      .form
+        .main
+          input(type='text', id='task', name='task', placeholder='해야할 일이 무엇인가요?')
+        .sub
+          .form-group
+            input.form-control(type='text', id='category', name='category', placeholder='분류')
+          .form-group
+            select.form-control(name='priority')
+              option(value='1') 중요
+              option(value='2', selected) 보통
+              option(value='3') 사소
+          .form-group
+            input.form-control(type='date', id='deadline', name='deadline')
+      .actions
+          button.btn.btn-primary.btn-lg.btn-block(type='submit') 저장
+    
