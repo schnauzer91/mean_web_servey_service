@@ -4,17 +4,28 @@ body
       #nav-trigger
         span Menu
       nav#nav-main
-        ul
-          li
-            a(href='/surveys/Registration') 설문등록
-          li
-            a(href='/surveys/Collecting') 설문수집
-          li
-            a(href='/surveys/Result') 설문결과
-          li
-            a(href='/users/new') 회원가입
-          li
-            a(href='/surveys/Manage') 설문관리
-//          li
-//            a(href='') 회원관리
+        if (!currentUser)
+          ul
+            li
+              a(href='/signin') 설문등록
+            li
+              a(href='/signin') 설문수집
+            li
+              a(href='/signin') 설문결과
+            li
+              a(href='/signin') 설문관리
+            li
+              a(href='/users/new') 회원가입
+        else
+          ul
+            li
+              a(href='/surveys/Registration') 설문등록
+            li
+              a(href='/surveys/Collecting') 설문수집
+            li
+              a(href='/surveys/Result') 설문결과
+            li
+              a(href='/surveys/Manage') 설문관리
+            li
+              a(href='/users/index') 사용자관리
       nav#nav-mobile

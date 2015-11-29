@@ -4,6 +4,9 @@ body
       .container.clearfix
         span.all-labs
           a(href='/') HOME
-        span.back-to-tutorial
-          a(href='/signin') 로그인
-          
+        if (!currentUser)
+          span.back-to-tutorial
+            a(href='/signin') 로그인
+        else
+          span.back-to-tutorial
+            a(href='/signout') 로그아웃          

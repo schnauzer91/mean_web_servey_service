@@ -14,3 +14,6 @@ var schema = new Schema({
 var User = mongoose.model('User', schema);
 
 module.exports = User;
+
+// 08의 model. 
+// 암호화 x
