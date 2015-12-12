@@ -1,0 +1,43 @@
+extends ../layout
+
+block content
+  .container
+    if post.id
+      h1.page-header 설문 수정하기
+    else
+      h1.page-header 설문 등록하기
+
+    form(action = (post.id) ? "/posts/#{post.id}?_method=PUT" : "/posts", method='POST')
+      .form-group
+        label(for='email') Email address
+        input.form-control(type='email', id='email', name='email', placeholder='Email', value=post.email)
+        label(for='password') Password
+        input.form-control(type='password', id='password', name='password', placeholder='Password')
+      .form-group
+        label(for='title') 설문 주제
+        input.form-control(type='text', id='title', name='title', placeholder='title', value=post.title)
+      .form-group
+        label(for='content') 설문 설명
+        textarea.form-control(id='content', rows='5', name='content', placeholder='content here')= post.content
+      .form-group
+        label(for='question') 질문 제목
+        input.form-control(type='text', id='question', name='question', placeholder='question', value=post.question)
+      .form-group
+        label(for='choice1') 답변 1
+        input.form-control(type='text', id='choice1', name='choice1', placeholder='choice1', value=post.choice1)
+      .form-group
+        label(for='choice2') 답변 2
+        input.form-control(type='text', id='choice2', name='choice2', placeholder='choice2', value=post.choice2)
+      .form-group
+        label(for='choice3') 답변 3
+        input.form-control(type='text', id='choice3', name='choice3', placeholder='choice3', value=post.choice3)
+      .form-group
+        label(for='singlequestion') 단일 질문 제목
+        input.form-control(type='text', id='singlequestion', name='singlequestion', placeholder='singlequestion', value=post.singlequestion)
+      .form-group
+        label(for='answer') 단일 질문 답
+        input.form-control(type='text', id='answer', name='answer', placeholder='answer', value=post.answer)        
+      div.form-actions
+        a.btn.btn-default(href='javascript:window.history.back();') 뒤로 
+        | 
+        button.btn.btn-primary(type='submit') 완료

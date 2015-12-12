@@ -9,9 +9,14 @@ html(lang='ko')
     link(rel='stylesheet', href='/bower_components/font-awesome/css/font-awesome.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/base.css')
+    link(rel='stylesheet', href='/stylesheets/morris.css')
     script(type='text/javascript', src='/bower_components/jquery/dist/jquery.js')
     script(type='text/javascript', src='/bower_components/bootstrap/dist/js/bootstrap.js')
+    script(type='text/javascript', src='/javascripts/raphael-min.js')
+    script(type='text/javascript', src='/javascripts/morris.js')
     script(type='text/javascript', src='/javascripts/topnav.js')
+    script(type='text/javascript', src='/javascripts/result-graph.js')
+
 
   body
     block top-bar
@@ -22,5 +27,6 @@ html(lang='ko')
 
     block content
 
+    br
     block footer
       include ./includes/footer

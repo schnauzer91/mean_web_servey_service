@@ -1,0 +1,69 @@
+extends ../layout
+
+block content
+  .container
+    h1.page-header= post.title
+    p
+      b by #{post.email}
+      | 
+      span at #{moment(post.createdAt).format('YYYY-MM-DD HH:mm:ss')} 
+      | 
+      | (조회수 #{post.read})
+
+    p.well(style='white-space:pre;')= post.question
+    p ①  
+    p.well(style='white-space:pre;')= post.choice1
+    p ②  
+    p.well(style='white-space:pre;')= post.choice2
+    p ③  
+    p.well(style='white-space:pre;')= post.choice3  
+    form(action = (post.id) ? "/posts/#{post.id}?_method=PUT" : "/posts", method='POST')
+      
+      - val = 3
+
+      script.
+        $(document).ready(function() {
+          var votes1 = post.votes1;
+          var votes2 = post.votes2;
+          var votes3 = post.votes3;
+          if($('#option1').is(':checked')) {
+            post.votes1 = post.votes1 + 1;
+          }
+          if($('#option2').is(':checked')) {
+            post.votes2 = post.votes2 + 1;
+          }
+          if($('#option3').is(':checked')) {
+            post.votes3 = post.votes3 + 1;
+          }
+        });
+
+      .form-group
+        label 문항 중에서 하나를 선택해주세요.
+          .radio
+            label
+              input(type="radio", id="option1", name="option", value="option1")
+              |  ①
+          .radio
+            label
+              input(type="radio", id="option2", name="option", value="option2")
+              |  ②
+          .radio
+            label
+              input(type="radio", id="option3", name="option", value="option3")
+              |  ③
+
+          input(type='hidden', id="votes1", name='votes1', value='post.votes1')
+          input(type='hidden', id="votes2", name='votes2', value='post.votes2')
+          input(type='hidden', id="votes3", name='votes3', value='post.votes3')
+
+      .form-group
+        label 다음 질문에 답을 해주세요.
+          p.well(style='white-space:pre;')= post.singlequestion   
+        br
+        label(for='answer') 단일 질문 답
+        input.form-control(type='text', id='answer', name='answer', placeholder='answer', value=post.answer)        
+      div.form-actions
+        a.btn.btn-default(href='javascript:window.history.back();') 뒤로 
+        | 
+        button.btn.btn-primary(type='submit') 완료
+// submit 이후 page redirection

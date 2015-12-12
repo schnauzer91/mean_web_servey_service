@@ -80,7 +80,7 @@ html {
 
 .footer {
     background-color: #333333;
-    position: absolute;
+    
     left: 0;
     bottom: 0;
     height: 100px;
@@ -112,6 +112,22 @@ html {
     margin: 120px 0px 0px -160px;
 }
 
+/* ldong css add */
+.result-table {
+  margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+.result-table td { padding: 8px; }
+.result-table > tbody > tr > td:first-child {
+  width: 25%;
+  max-width: 300px;
+  text-align: right;
+}
+.result-table td table {
+  background-color: lightblue;
+  text-align: right;
+}
 
 
 
