@@ -27,7 +27,7 @@ MEAN Stack 기반 설문조사 웹 어플리케이션
 * Heroku
 * JADE
 * npm modules
-* Express
+* Express.js
 * MongoDB
 * MongoLab
 * JavaScript
